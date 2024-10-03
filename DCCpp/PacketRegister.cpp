@@ -118,7 +118,7 @@ void RegisterList::setThrottle(const char *s) volatile{
   b[nB++]=lowByte(cab);
   b[nB++]=0x3F;                        // 128-step speed control byte
   if(tSpeed>=0) 
-    b[nB++]=tSpeed+(tSpeed>0)+tDirection*128;   // max speed is 126, but speed codes range from 2-127 (0=stop, 1=emergency stop)
+    b[nB++]=tSpeed+(tSpeed>1)+tDirection*128;   // max speed is 126, but speed codes range from 2-127 (0=stop, 1=emergency stop)
   else{
     b[nB++]=1;
     tSpeed=0;
