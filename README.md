@@ -1,5 +1,5 @@
 In this fork is a change in PacketRegister.cpp because "emergency stop" of throttle FREDI (speed = 1) was not properly processed.
-------------
+
 
 > **WARNING**: This is the "Classic" or original verson of Gregg E. Berman's DCC++ code for the Arduino UNO and MEGA. 
 > We've provided minor fixes and retained it here for those who need it. If you are looking for the new "EX" 
