@@ -1,4 +1,4 @@
-In this fork is a change in PacketRegister.cpp because "emergency stop" of throttle FREDI (speed = 1) was not properly processed.
+In this fork is a change in PacketRegister.cpp because "emergency stop" of throttle FREDI (speed = 1) was not properly processed im rocrail.
 
 
 > **WARNING**: This is the "Classic" or original verson of Gregg E. Berman's DCC++ code for the Arduino UNO and MEGA. 
